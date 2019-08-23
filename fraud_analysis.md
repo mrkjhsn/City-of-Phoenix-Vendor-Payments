@@ -12,7 +12,12 @@ Below is a graph of the frequency of leading digits of all vendors with at least
 <br/>
 <br/>
 
-Below is a graph of the frequency of leading digits for vendors I have identified as anomalies bases on the irregular frequencies of their leading digits.  The thick red line indicates expected frequencies outlined by Benford's Law.
+Below is a graph of the frequency of leading digits for vendors I have identified as anomalies bases on the irregular frequencies of their leading digits:
+1. Vendors with a leading digit of 1 that made up 20% or less of that vendors total leading digits.
+1. Vendors with a leading digit of 2 that made up 12% or less of that vendors total leading digits.
+1. Vendors with a leading digit of 9 that made up 10% or more of that vendors total leading digits.
+
+The thick red line indicates expected frequencies outlined by Benford's Law.
 ![](https://github.com/mrkjhsn/City-of-Phoenix-Vendor-Payments/blob/master/visualizations/Anomaly%20Vendors%20Based%20on%20Benford's%20Law.png)
 <br/>
 <br/>
